@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blinkit</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="demo.css">
+    <link rel="icon" type="image/png" href="/blinkit images/blinkit-seeklogo.png">
+</head>
+<body>
+    <header>
+    <div class="hleft">
+        <a href="">
+            <div class="logo"><svg width="170" height="55" viewBox="0 0 114 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.3342 7.186C16.2619 7.186 17.9832 7.66644 19.4978 8.62732C21.0262 9.57447 22.2242 10.9197 23.0917 12.663C23.9316 14.3377 24.3516 16.3075 24.3516 18.5724C24.3516 20.7687 23.9316 22.7316 23.0917 24.4612C22.2517 26.1908 21.0675 27.5429 19.5391 28.5175C17.9969 29.5058 16.2619 30 14.3342 30C12.9297 30 11.6078 29.7117 10.3685 29.1352C9.12927 28.5587 8.06901 27.7488 7.18775 26.7056V29.4852H0V0H7.18775V10.4598C8.06901 9.41661 9.12927 8.61359 10.3685 8.05079C11.6078 7.47426 12.9297 7.186 14.3342 7.186ZM12.1861 24.0494C13.2051 24.0494 14.1139 23.8161 14.9125 23.3493C15.7112 22.8826 16.3377 22.2306 16.7921 21.3933C17.2465 20.5697 17.4737 19.6294 17.4737 18.5724C17.4737 17.5429 17.2465 16.6095 16.7921 15.7721C16.3377 14.9348 15.7112 14.2828 14.9125 13.8161C14.1139 13.3493 13.2051 13.116 12.1861 13.116C11.2223 13.116 10.3617 13.3493 9.60432 13.8161C8.84699 14.269 8.2549 14.9073 7.82804 15.731C7.40118 16.5683 7.18775 17.5154 7.18775 18.5724C7.18775 19.6294 7.40118 20.5765 7.82804 21.4139C8.2549 22.2375 8.84699 22.8826 9.60432 23.3493C10.3617 23.8161 11.2223 24.0494 12.1861 24.0494Z" fill="#F8CB46"></path><path d="M25.3356 29.4852V0H32.5233V29.4852H25.3356Z" fill="#F8CB46"></path><path d="M34.5607 29.4852V7.68016H41.7071V29.4852H34.5607Z" fill="#F8CB46"></path><path d="M57.2319 7.186C58.7603 7.186 60.1372 7.5429 61.3627 8.25669C62.5882 8.95676 63.5521 9.94509 64.2544 11.2217C64.9291 12.512 65.2664 13.9739 65.2664 15.6074V29.4852H58.4092V17.2135C58.4092 16.4173 58.2508 15.7104 57.9341 15.0927C57.6312 14.4612 57.1974 13.9739 56.6329 13.6307C56.0821 13.2876 55.4349 13.116 54.6914 13.116C53.9891 13.116 53.3419 13.2876 52.7498 13.6307C52.1577 13.9602 51.6965 14.4132 51.366 14.9897C51.0218 15.5388 50.8496 16.1839 50.8496 16.9252L50.8083 29.4852H43.6619V7.68016H50.8083V10.1716C51.483 9.23816 52.3849 8.51064 53.5141 7.98902C54.6432 7.45367 55.8824 7.186 57.2319 7.186Z" fill="#F8CB46"></path><path d="M81.0597 17.2135L89.1769 29.4852H81.0597L76.3091 21.7639L74.1198 24.2965V29.4852H66.932V0H74.1198V16.2869L81.0184 7.68016H89.1356L81.0597 17.2135Z" fill="#F8CB46"></path><path d="M34.5569 0.00232667H41.7267V5.59207H34.5569V0.00232667Z" fill="#F8CB46"></path><path d="M90.3176 29.4198V7.61479H97.464V29.4198H90.3176Z" fill="#54B226"></path><path d="M112.575 23.2634L114 27.855C113.353 28.4727 112.534 28.9737 111.542 29.3581C110.564 29.7424 109.607 29.9346 108.671 29.9346C107.322 29.9346 106.117 29.6395 105.057 29.0492C103.996 28.4452 103.17 27.6079 102.578 26.5372C101.986 25.494 101.69 24.2929 101.69 22.9339V13.3183H98.819V7.61479H101.69V0.00241089H108.547V7.61479H113.071V13.3183H108.547V21.6161C108.547 22.3162 108.733 22.8859 109.105 23.3251C109.477 23.7644 109.952 23.984 110.53 23.984C110.943 23.984 111.329 23.9223 111.687 23.7987C112.045 23.6752 112.341 23.4967 112.575 23.2634Z" fill="#54B226"></path><path d="M90.2609 0.00241089H97.4307V5.59215H90.2609V0.00241089Z" fill="#54B226"></path></svg></div>
+        </a>
+        <a href="">
+            <div class="address"> 
+                <h3>Delivery in 23 minutes</h3>
+                <p>B62, Pocket B, South City I, Sector-88</p>
+            </div>
+        </a>
+
+    </div> 
+    <form class="hsearch">
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            <input type="text" placeholder="Search">
+    </form>
+
+    <div class="hbtn">
+       <a href=""> <button>Login</button></a>
+        <a href=""><button id="hh"><i class="fa-solid fa-cart-shopping"></i> Cart</button></a>
+    </div>
+    </header>
+    <section class="bannersec">
+        <a href=""><img src="/blinkit images/displayim.webp" alt="" ></a>
+        <div class="secline">
+            <a href=""><img src="/blinkit images/pharmacy.avif" alt=""></a>
+            <a href=""><img src="/blinkit images/Pet-Care_WEB.avif" alt=""></a>
+            <a href=""><img src="/blinkit images/babycare-WEB.avif" alt=""></a>
+        </div>
+        <div class="thirdline">
+            <div class="thirdline1">
+            <a href=""><img src="/blinkit images/paan-corner_web.avif" alt=""></a>
+            <a href=""><img src="/blinkit images/bread.avif" alt=""></a>
+            <a href=""><img src="/blinkit images/fruveg.avif" alt=""></a>
+            <a href=""><img src="/blinkit images/juice.avif" alt=""></a>
+            <a href=""><img src="/blinkit images/munchies.avif" alt=""></a>
+            <a href=""><img src="/blinkit images/breakfast.avif" alt=""></a>
+            <a href=""><img src="/blinkit images/silk.avif" alt=""></a>
+            <a href=""><img src="/blinkit images/oreo.avif" alt=""></a>
+            <a href=""><img src="/blinkit images/tea.avif" alt=""></a>
+            <a href=""><img src="/blinkit images/aata.avif" alt=""></a>
+            </div>
+            <div class="thirdline2">
+            <a href=""><img src="/blinkit images/masala.avif" alt=""></a>
+            <a href=""><img src="/blinkit images/sauce.avif" alt=""></a>
+            <a href=""><img src="/blinkit images/chicken.avif" alt=""></a>
+            <a href=""><img src="/blinkit images/organic.avif" alt=""></a>
+            <a href=""><img src="/blinkit images/baby care sllide.avif" alt=""></a>
+            <a href=""><img src="/blinkit images/wellness.avif" alt=""></a>
+            <a href=""><img src="/blinkit images/cleaning.avif" alt=""></a>
+            <a href=""><img src="/blinkit images/home office.avif" alt=""></a>
+            <a href=""><img src="/blinkit images/personal.avif" alt=""></a>
+            <a href=""><img src="/blinkit images/pet care.avif" alt=""></a>
+            </div>
+            
+        </div>
+        
+    </section>
+    <section class="prosec">
+        <div class="headingrow"><h2>Dairy, Bread & Eggs</h2>
+        <a href="">see all</a></div>
+
+        <div class="prorow">
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro2.avif"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Amul Taaza Toned Milk</h5>
+                        <p>500 ml</p>
+                        <div class="probutton">
+                            <b>₹29</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro1.avif"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Amul Gold Full Cream Milk</h5>
+                        <p>500 ml</p>
+                        <div class="probutton">
+                            <b>₹35</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro3.avif"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Amul Salted Butter</h5>
+                        <p>100 g</p>
+                        <div class="probutton">
+                            <b>₹62</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro4.avif"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Mother Diary Toned Milk</h5>
+                        <p>500 ml</p>
+                        <div class="probutton">
+                            <b>₹29</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro5.avif"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Amul Cow Milk</h5>
+                        <p>500 ml</p>
+                        <div class="probutton">
+                            <b>₹30</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro6.avif"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Harvest Gold White Bread</h5>
+                        <p>350 g</p>
+                        <div class="probutton">
+                            <b>₹30</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            
+        </div>
+        
+    </section>
+    <section class="prosec">
+        <div class="headingrow"><h2>Rolling paper & tobacco</h2>
+        <a href="">see all</a></div>
+
+        <div class="prorow">
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro2-2.avif"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Ultimate Rolling Paper with Filter Tips & Crushing Tray (King Size, Unbleached) - Mozo</h5>
+                        <p>1 pack (32 pieces)</p>
+                        <div class="probutton">
+                            <b>₹90</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro2-3.avif"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Brown Rolling Paper Cones - Stash Pro</h5>
+                        <p>6 pieces</p>
+                        <div class="probutton">
+                            <b>₹90</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro2-1.avif"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Perfect Rolled Cones (Natural) - Bongchie</h5>
+                        <p>3 pack</p>
+                        <div class="probutton">
+                            <b>₹45</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro2-4.avif"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Brown Ripper Rolling Paper 32 Leaves + 32 Roaches Stash Pro</h5>
+                        <p>1 pack (64 pieces)</p>
+                        <div class="probutton">
+                            <b>₹120</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro2-5.avif"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Super Slim Brown Rolling Paper by Stash Pro</h5>
+                        <p>1 pack (32 pieces)</p>
+                        <div class="probutton">
+                            <b>₹55</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro2-6.avif"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Colour Roach - Stash Pro</h5>
+                        <p>32 sheets</p>
+                        <div class="probutton">
+                            <b>₹50</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            
+        </div>
+        
+    </section>
+    <section class="prosec">
+        <div class="headingrow"><h2>Snacks & Munchies</h2>
+        <a href="">see all</a></div>
+
+        <div class="prorow">
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro3-1.avif"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Lo! Foods Keto Mixture Namkeen - High Protein Healthy Snack</h5>
+                        <p>100 g</p>
+                        <div class="probutton">
+                            <b>₹150</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro3-2.avif"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Moi Soi White Rice Paper</h5>
+                        <p>100 g</p>
+                        <div class="probutton">
+                            <b>₹173</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro3-3.avif"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Protein Chef Baked Coated Peanuts (Masala Roasted Healthy Snacks)</h5>
+                        <p>50 g</p>
+                        <div class="probutton">
+                            <b>₹69</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro3-4.avif"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Kab's Jackpot Fiery and Crunchy Crisps</h5>
+                        <p>80 g</p>
+                        <div class="probutton">
+                            <b>₹65</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro3-5.avif"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Kab's Jackpot Cheese Balls</h5>
+                        <p>60 g</p>
+                        <div class="probutton">
+                            <b>₹65</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro3-6.avif"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Kari Kari Chilli Garlic Snack</h5>
+                        <p>108 g</p>
+                        <div class="probutton">
+                            <b>₹100</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            
+        </div>
+        
+    </section>
+    <section class="prosec">
+        <div class="headingrow"><h2>Hookah</h2>
+        <a href="">see all</a></div>
+
+        <div class="prorow">
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro4-1.avif"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Chief Commissioner Herbal Hookah Flavor (Tobacco Free) by Soex</h5>
+                        <p>50 g</p>
+                        <div class="probutton">
+                            <b>₹100</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro4-2.png"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Coconut Hookah Coal Cubes by Stash Pro</h5>
+                        <p>18 pieces</p>
+                        <div class="probutton">
+                            <b>₹140</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro4-3.png"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Paan Raas Herbal Hookah Flavor (Tobacco Free) by Soex</h5>
+                        <p>50 g</p>
+                        <div class="probutton">
+                            <b>₹100</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro4-4.png"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Double Apple Herbal Hookah Flavor (Tobacco Free) by Soex</h5>
+                        <p>50 g</p>
+                        <div class="probutton">
+                            <b>₹100</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro4-5.png"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Premium Magic Coal By Stash Pro</h5>
+                        <p>1 pack (10 pieces)</p>
+                        <div class="probutton">
+                            <b>₹80</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro4-6.png"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Brain Freeze Up Herbal Hookah Flavor (Tobacco Free) by Soex</h5>
+                        <p>50 g</p>
+                        <div class="probutton">
+                            <b>₹100</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            
+        </div>
+        
+    </section>
+    <section class="prosec">
+        <div class="headingrow"><h2>Mouth fresheners</h2>
+        <a href="">see all</a></div>
+
+        <div class="prorow">
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro5-1.png"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Rajnigandha Silver Pearl Silver Coated Elaichi Mouth Freshener</h5>
+                        <p>6 g</p>
+                        <div class="probutton">
+                            <b>₹60</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro5-2.png"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Wrigley's 5 Peppermint Cobalt Chewing Gum (Sugar Free)</h5>
+                        <p>1 pack (15 pieces)</p>
+                        <div class="probutton">
+                            <b>₹279</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro5-3.png"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Wrigley's 5 Spearmint Rain Chewing Gum (Sugar Free)</h5>
+                        <p>1 pack (15 pieces)</p>
+                        <div class="probutton">
+                            <b>₹279</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro5-4.png"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Wrigley's Extra Winterfresh Chewing Gum (Sugar Free)</h5>
+                        <p>1 pack (15 pieces)</p>
+                        <div class="probutton">
+                            <b>₹279</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro5-5.png"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Trident Spearmint Gum (Sugar Free)</h5>
+                        <p>1 pack (14 pieces)</p>
+                        <div class="probutton">
+                            <b>₹180</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro5-6.avif"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Impact Sugar Free Mint Candy (Fresh Mints)</h5>
+                        <p>14 g</p>
+                        <div class="probutton">
+                            <b>₹150</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            
+        </div>
+        
+    </section>
+    <section class="prosec">
+        <div class="headingrow"><h2>Cold Drinks & Juices</h2>
+        <a href="">see all</a></div>
+
+        <div class="prorow">
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro6-1.png"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Ice Cubes by Dras Ice</h5>
+                        <p>1 kg</p>
+                        <div class="probutton">
+                            <b>₹75</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro6-2.png"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Coca-Cola Soft Drink (750 ml)</h5>
+                        <p>750 ml</p>
+                        <div class="probutton">
+                            <b>₹40</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro6-3.png"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Amul Lactose Free Milk</h5>
+                        <p>250 ml</p>
+                        <div class="probutton">
+                            <b>₹26</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro6-4.png"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Bisleri Packaged Water (1 lit)</h5>
+                        <p>1 lit</p>
+                        <div class="probutton">
+                            <b>₹20</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro6-5.png"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Coca-Cola Diet Coke Soft Drink</h5>
+                        <p>180 ml</p>
+                        <div class="probutton">
+                            <b>₹25</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro6-6.png"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Bisleri Packaged Water</h5>
+                        <p>5 lit</p>
+                        <div class="probutton">
+                            <b>₹75</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            
+        </div>
+        
+    </section>
+    <section class="prosec">
+        <div class="headingrow"><h2>Candies & Gums</h2>
+        <a href="">see all</a></div>
+
+        <div class="prorow">
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro7-1.png"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Haribo Supermix Candy</h5>
+                        <p>140 g</p>
+                        <div class="probutton">
+                            <b>₹260</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro7-2.png"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Happydent Wave Sugarfree Mint Chewing Gum 18 Pcs</h5>
+                        <p>28.9 g</p>
+                        <div class="probutton">
+                            <b>₹48</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro7-3.png"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Orbit Spearmint Flavour Sugar Free Chewing Gum</h5>
+                        <p>22 g</p>
+                        <div class="probutton">
+                            <b>₹50</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro7-5.png"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Wrigley's 5 Peppermint Cobalt Chewing Gum (Sugar Free)</h5>
+                        <p>1 pack (15 pieces)</p>
+                        <div class="probutton">
+                            <b>₹279</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro7-6.png"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Chupa Chups Sour Bites Mixed Fruit Candy</h5>
+                        <p>61.6 g</p>
+                        <div class="probutton">
+                            <b>₹35</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            <div class="proitem">
+                <div class="proimg">
+                    <img src="/blinkit images/pro7-4.png"  width="77%">
+                    <p><img src="timee.png" width="18">11 min</p>
+                </div>
+                    <div class="procontent">
+                        <h5>Orbit Mixed Fruit Flavour Chewing Gum (Sugar Free)</h5>
+                        <p>22 g</p>
+                        <div class="probutton">
+                            <b>₹50</b>
+                            <button>ADD</button>
+                        </div>
+                    </div>
+                
+                    
+                
+            </div>
+            
+        </div>
+        
+    </section>
+    
+    
+    <footer>
+        <div class="footer">
+            <div class="footerr1">
+                <div class="footerr1left">
+                    <h3>Useful Links</h3>
+                    <div class="quicklinks">
+                        <ul>
+                            <li> <a href="">Blog</a> </li>
+                            <li> <a href="">Privacy</a> </li>
+                            <li> <a href="">Terms</a> </li>
+                            <li> <a href="">FAQs</a> </li>
+                            <li> <a href="">Security</a> </li>
+                            <li> <a href="">Contact</a> </li>
+                        </ul>
+                        <ul>
+                            <li> <a href="">Partner</a> </li>
+                            <li> <a href="">Frenchise</a> </li>
+                            <li> <a href="">Seller</a> </li>
+                            <li> <a href="">Wherehouse</a> </li>
+                            <li> <a href="">Deliver</a> </li>
+                            <li> <a href="">Resources</a> </li>
+                        </ul>
+                        <ul>
+                            <li> <a href="">Recipes</a> </li>
+                            <li> <a href="">Bistro</a> </li>
+                            
+                        </ul>
+                        
+                    </div>
+                   
+
+                </div>
+
+                <div class="footerr1right">
+                        <div class="catsee"> 
+                            <h3>Categories </h3>
+                            <a href="">see all</a>
+                        </div>
+                        <div class="quicklinks2">
+                        <ul>
+                            <li> <a href="">Vegetables & Fruits</a> </li>
+                            <li> <a href="">Cold Drinks & Juices</a> </li>
+                            <li> <a href="">Bakery & Biscuits</a> </li>
+                            <li> <a href="">Dry Fruits, Masala & Oil</a> </li>
+                            <li> <a href="">Paan Corner</a> </li>
+                            <li> <a href="">Pharma & Wellness</a> </li>
+                            <li> <a href="">Ice Creams & Frozen Desserts</a> </li>
+                            <li> <a href="">Beauty & Cosmetics</a> </li>
+                            <li> <a href="">Stationery Needs</a> </li>
+                            <li> <a href="">Print Store</a> </li>
+                        </ul>
+                        <ul>
+                            <li> <a href="">Dairy & Breakfast</a> </li>
+                            <li> <a href="">Instant & Frozen Food</a> </li>
+                            <li> <a href="">Sweet Tooth</a> </li>
+                            <li> <a href="">Sauces & Spreads</a> </li>
+                            <li> <a href="">Organic & Premium</a> </li>
+                            <li> <a href="">Cleaning Essentials</a> </li>
+                            <li> <a href="">Personal Care</a> </li>
+                            <li> <a href="">Fashion & Accessories</a> </li>
+                            <li> <a href="">Books</a> </li>
+                            <li> <a href="">E-Gift Cards</a> </li>
+                        </ul>
+                        <ul>
+                            <li> <a href="">Munchies</a> </li>
+                            <li> <a href="">Tea, Coffee & Health Drinks</a> </li>
+                            <li> <a href="">Atta, Rice & Dal</a> </li>
+                            <li> <a href="">Chicken, Meat & Fish</a> </li>
+                            <li> <a href="">Baby Care</a> </li>
+                            <li> <a href="">Home & Office</a> </li>
+                            <li> <a href="">Pet Care</a> </li>
+                            <li> <a href="">Electronics & Electricals</a> </li>
+                            <li> <a href="">Toys & Games</a> </li>
+                            <li> <a href="">Rakhi Gifts</a> </li>
+                            
+                        </ul>
+                        
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="footer2nd">
+                <p>© Blink Commerce Private Limited, 2016-2025</p>
+                <div class="footer2ndicon"> 
+                    <h5>Download App</h5>
+                    <a href=""><img src="/blinkit images/app store.webp" alt=""></a>
+                    <a href=""><img src="/blinkit images/google play.webp" alt=""></a>
+                </div>
+                    <div class="slink">
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href=""><i class="fa-brands fa-threads"></i></a>
+                    </div>
+
+            </div>
+
+            <div class="footer3rd">
+                <p>“Blinkit” is owned & managed by "Blink Commerce Private Limited" and is not related, linked or interconnected in whatsoever manner or nature, to “GROFFR.COM” which is a real estate services business operated by “Redstone Consultancy Services Private Limited”.</p>
+            </div>
+        </div>
+        
+
+    </footer>
+
+</body>
+</html>
