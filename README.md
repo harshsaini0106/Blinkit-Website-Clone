@@ -22,13 +22,6 @@ The goal of this project was to practice my **front-end fundamentals** and gain 
 
 ---
 
-## 📸 Screenshots
-(Add some screenshots of your project here!)  
-For example:  
-![Blinkit Clone Homepage](./screenshots/screenshot.png)
-
----
-
 ## 📂 Project Structure
 
 ---
